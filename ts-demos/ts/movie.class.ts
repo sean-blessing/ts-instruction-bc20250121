@@ -12,11 +12,11 @@ export class Movie {
     rating: string = "",
     director: string = ""
   ) {
-    (this.id = id),
-      (this.title = title),
-      (this.year = year),
-      (this.rating = rating),
-      (this.director = director);
+    this.id = id;
+    this.title = title;
+    this.year = year;
+    this.rating = rating;
+    this.director = director;
   }
 
   details(): string {
